@@ -191,7 +191,7 @@ export default function MainPage() {
             <span>✉️ srvmcbse2014@gmail.com</span>
           </div>
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSdBvsU0faXmhevB5sAcSaJQQDMhTmsCJSGMrzpWqul01aZLmA/viewform" style={{ background: "var(--gold)", color: "#fff", padding: "3px 12px", fontSize: "12px", fontStyle: "italic", animation: "pulse 2s infinite" }}>
-            🎓 Admissions Open 2025–26 | Pre-KG to X Std
+            🎓 Admissions Open 2026–27 | Pre-KG to X Std
           </a>
         </div>
       </div>
