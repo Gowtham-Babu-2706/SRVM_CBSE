@@ -400,13 +400,13 @@ export default function MainPage() {
               { bg: "var(--gold)", text: "Cultural Activities", icon: "🎭",href:"https://sriramvmscbse.edu.in/sports/" },
               { bg: "#5a1a8a", text: "Character Building", icon: "🌱",href:"https://sriramvmscbse.edu.in/clubs/" },
             ].map((c, i) => (
-              <div key={i} className="card-hover" style={{
+              <a href={c.href} key={i} className="card-hover" style={{
                 background: c.bg, color: "#fff", padding: "32px 20px", borderRadius: 4,
                 textAlign: "center", boxShadow: "0 4px 16px rgba(0,0,0,0.1)",
               }}>
                 <div style={{ fontSize: 36, marginBottom: 10 }}>{c.icon}</div>
                 <div style={{ fontSize: 14, fontWeight: 600, lineHeight: 1.3 }}>{c.text}</div>
-              </div>
+              </a>
             ))}
           </div>
         </div>
